@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const Position = require('../functions/Position')
+const test = "test"
 
 router.get('/', async (req, res) => {
 
