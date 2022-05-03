@@ -1,0 +1,6 @@
+{
+  "freezeTableName": true,
+  "timestamps": false,
+  "createdAt": false,
+  "updateAt": false
+}
