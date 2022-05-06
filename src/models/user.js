@@ -8,6 +8,16 @@ module.exports = function(sequelize, DataTypes) {
       primaryKey: true,
       field: 'u_id'
     },
+    uUsername: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'u_username'
+    },
+    uPassword: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'u_password'
+    },
     uFirstname: {
       type: DataTypes.TEXT,
       allowNull: true,
@@ -18,15 +28,16 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: true,
       field: 'u_lastname'
     },
-    bId: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      field: 'b_id'
-    },
     uRole: {
       type: DataTypes.TEXT,
       allowNull: true,
+      defaultValue: "\"A\"",
       field: 'u_role'
+    },
+    uPosition: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      field: 'u_position'
     },
     del: {
       type: DataTypes.TEXT,
