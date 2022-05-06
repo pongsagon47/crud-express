@@ -1,4 +1,5 @@
 {
+  "storage": "./yuya.sqlite",
   "freezeTableName": true,
   "timestamps": false,
   "createdAt": false,
